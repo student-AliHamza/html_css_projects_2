@@ -1,0 +1,36 @@
+
+
+body{
+    background-color: azure;
+  
+
+}
+.imran_img,img{
+   
+    border-radius: 500px;
+    margin : 20px 100px;
+}
+.name{
+    text-align: center;
+    margin: -100px 20px;
+    position: relative;
+    left: 90px;
+}
+.date{
+    position: relative;
+    top : 75px;
+    left : 690px;
+}
+main{
+    /* border: 1px solid; */
+    margin: 100px 180px 0px 180px;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+}
+footer{
+    /* border: 1px solid; */
+    margin: 0px 180px 0px 180px; 
+    display: flex;
+     position: relative;
+     left : 550px;
+}

@@ -1,0 +1,193 @@
+@keyframes change-color{
+    0%{ background-color : red;}
+    25%{ background-color : green;}
+    50%{ background-color : blue;}
+    75%{ background-color : orange;}
+    100%{ background-color :yellow;}
+}
+.side_bar{
+    border: 1px solid black;
+    width: 200px;
+    height: 700px;
+    float: left;
+    border-radius: 10px;
+    background-color: blue;
+    animation-name: change-color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.left_sidebar{
+    border: 1px solid black;
+    width: 200px;
+    height: 700px;
+    float: right;
+    border-radius: 10px;
+    background-color: blue;
+    animation-name: change-color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+body{
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    border: solid;
+    background-color: whitesmoke;
+    border-radius:10px ;
+    padding: 0px 3px 0px 3px;
+    margin: 0px 200px 0px 200px;
+    /* text-shadow: 3px 3px 3px; */
+}
+h5{
+    color: blue;
+    text-align: center;
+    position: relative;
+    right : 100px;
+}
+
+ul{
+    
+    border : 1px solid green;
+    border-radius: 10px;   
+    background-color: whitesmoke;
+    margin : 50px 200px 50px 200px;
+    
+}
+
+
+main{
+    border: 1px solid green;
+    margin : 50px 200px 50px 200px;
+    /* padding: 0px 0px 0px -5px; */
+    background-color: whitesmoke;
+    border-radius: 10px;
+  
+    
+    
+    
+}
+#apply{
+    border : 1px solid green; 
+    border-bottom: none;
+    margin : 10px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px; 
+    border-collapse: collapse;
+   
+   
+
+}
+
+
+
+
+.time{
+    border : 1px solid green; 
+    border-bottom: none;
+    margin : -10px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px; 
+   
+    
+   
+    
+}
+.student{
+    border : 1px solid green; 
+    border-bottom: none;
+    margin : -30px 10px 10px 10px;
+    padding: 10px 10px 10px 10px; 
+    border-radius: 10px; 
+}
+.date{
+    border : 1px solid green; 
+    border-bottom: none;
+    margin : -10px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px; 
+    border-radius: 10px; 
+}
+
+.CNIC{
+    border : 1px solid green; 
+    border-bottom: none;
+    margin : -30px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px; 
+    border-radius: 10px; 
+} 
+
+.address{
+    border : 1px solid green;
+    border-bottom: none; 
+    margin : -10px 10px 10px 10px;  
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px; 
+}
+.degree{
+    border : 1px solid green; 
+    border-bottom: none;
+    margin : -10px 10px 10px 10px;  
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px; 
+}
+
+.degree_tittle{
+    border : 1px solid green;
+    border-bottom: none; 
+    margin : -10px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px; 
+}
+.upload{
+    border : 1px solid green; 
+    margin : -10px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px; 
+}
+
+
+
+footer{
+    border: 1px solid green;
+    margin : 50px 500px 50px 500px;
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+#myButton{
+    background-color: bisque;
+    
+}
+
+.bottom_bar{
+    border: 1px solid black;
+    height: 200px;
+    background-color: blue;
+    animation-name: change-color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.ul_tag{
+    list-style-type: none;
+    /* display: inline-block; */
+    border: none;
+    background-color: bisque;
+    /* width: 700px; */
+    padding: 5px 10px;
+    display: flex;  
+    color: black;
+   
+} 
+.one{
+    padding: 0px 40px 0px 200px;
+}
+.two{
+    padding : 0px 50px ;
+}
+.four{
+    padding: 0px 50px;
+}

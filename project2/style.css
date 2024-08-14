@@ -1,0 +1,44 @@
+body{
+    background-color: azure;
+}
+h1{
+    border: 1px solid black;
+    text-align: center;
+    color: red;
+     background-color: yellowgreen;
+    margin: 0px 165px 0px 100px;
+}
+img{
+    width: 1000px;
+    height: 200px;
+
+     margin-left: 100px;
+   
+}
+p{
+    color: black;
+    font-size: 12;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+#home{
+    display: flex;
+    justify-content: space-around;
+}
+#link_one
+{
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    background-color: aqua;
+}
+#link_two{
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px; 
+    background-color: aqua;  
+}
+#link_three{
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;  
+    background-color: aqua;
+}

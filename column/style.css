@@ -1,0 +1,22 @@
+.column{
+    column-count: 3;
+    column-gap: 30px;
+    column-rule-style: solid;
+    column-rule-color: red ;
+    column-span: all;
+}
+.flexbox{
+    background-color: red;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+
+}
+
+.flex-child{
+background-color: green;
+margin : 20px;
+padding : 20px;
+/* display : inline-block; */
+text-align: center;
+}

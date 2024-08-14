@@ -1,0 +1,113 @@
+/* .border{
+    border : 1px solid red;
+    padding: 20px;
+    width : 500px;
+    height: 100px;
+    position: relative;
+    top : 30px;
+    left : 30px; 
+}
+
+.red{
+    border : 1px solid red;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+}
+
+.green{
+    border : 1px solid red;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    display: inline-block;
+}
+
+.blue{
+    border : 1px solid red;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    display: inline-block;
+} */
+.transition{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 100px;
+    transition-property: height;
+    transition-duration: 500ms;
+    transition-delay: 500ms;
+    transition-timing-function: ease;
+  
+}
+.transition:hover{
+    height: 200px;
+   
+}
+
+.two{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 100px;
+    transition-property: width;
+
+
+}
+.two:hover{
+    width : 500px
+}
+@keyframes changecolor{
+
+    /* from{background-color: yellow;}
+    to{background-color: green;}
+     */
+     0%{background-color: red;}
+     25%{background-color: green;}
+     50%{background-color: orange;}
+     75%{background-color: red;}
+     100%{background-color: yellow;}
+}
+.animate{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    animation-name: changecolor;
+    animation-duration: 10s2;
+
+
+
+}
+
+.div1{
+
+width: 70%;
+float: left;
+background-color: green;
+}
+.div2{
+
+    width: 30%;
+    float: left;
+    background-color: yellow;
+}
+h1{
+    font-size: 80px;
+}
+
+@media screen and( max-width :768px) {
+    .div1{
+        width : 50%;
+    }
+    .div2{
+        width : 50%;
+    }
+    
+}

@@ -1,0 +1,14 @@
+.grid-container{
+    border: 1px solid red;
+    background-color: aquamarine;
+    margin: 200px 200px 20px 200px;
+
+  
+
+}
+#box{
+    display: grid;
+    grid-template-columns: 200px 200px ;
+}
+
+

@@ -1,0 +1,36 @@
+.grid-container{
+    background-color: green;
+    padding: 20px;
+display: grid;
+grid-template-areas: 
+'header header header header header header'
+'menu main main main right right'
+'menu footer footer footer footer footer';
+
+
+
+
+}
+
+.grid-items{
+    background-color: yellow;
+    border: 1px solid black;
+    padding : 20px;
+    font-size: 40px;
+    text-align: center;
+}
+#grid-1{
+    grid-area: header;
+}
+#grid-2{
+   grid-area: menu;
+}
+#grid-3{
+  grid-area: main;
+}
+#grid-4{
+    grid-area: right;
+}
+#grid-5{
+    grid-area: footer;
+}
